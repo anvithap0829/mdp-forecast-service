@@ -2,16 +2,12 @@ package edu.adrian.forecast.forecast;
 
 import edu.adrian.forecast.ForecastServiceApplication;
 import edu.adrian.forecast.forecast.model.CountryState;
-import edu.adrian.forecast.forecast.model.Forecast;
-import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.Mockito;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.SpringApplicationConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
-import static org.junit.Assert.*;
 import static org.mockito.Mockito.times;
 import static org.mockito.Mockito.verify;
 

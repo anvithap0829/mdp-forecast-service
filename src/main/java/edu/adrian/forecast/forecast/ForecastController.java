@@ -2,10 +2,11 @@ package edu.adrian.forecast.forecast;
 
 import edu.adrian.forecast.forecast.model.CountryState;
 import edu.adrian.forecast.forecast.model.Forecast;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * This Controller is the one that handles the URL requests from the outside world, this is as "front-end" as it

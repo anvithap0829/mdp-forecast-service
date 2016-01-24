@@ -2,10 +2,8 @@ package edu.adrian.forecast.forecast;
 
 import edu.adrian.forecast.forecast.model.CountryState;
 import edu.adrian.forecast.forecast.model.Forecast;
-import edu.adrian.forecast.forecast.model.TemperatureScale;
 import org.springframework.stereotype.Service;
 
-import java.util.HashMap;
 import java.util.Map;
 
 /**
